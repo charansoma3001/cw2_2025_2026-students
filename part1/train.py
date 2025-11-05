@@ -99,7 +99,7 @@ def train(args: argparse.Namespace) -> None:
     vocab_mask = torch.ones(len(vocab.tgt))
     vocab_mask[vocab.tgt["<pad>"]] = 0
 
-    device = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
+    device = torch.device(f"cuda:{args.cuda_device}" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
     print(f"use device: {device}")
 
     model = model.to(device)
@@ -253,6 +253,9 @@ def train(args: argparse.Namespace) -> None:
 
 def parse_args():
     parser = argparse.ArgumentParser()
+
+    parser.add_argument('--cuda-device', type=int, default=0,
+                    help='CUDA device ID to use (default: 0)')
 
     parser.add_argument(
         "--model-config",
