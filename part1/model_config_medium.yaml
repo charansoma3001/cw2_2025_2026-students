@@ -1,0 +1,6 @@
+# The size of the embedding vectors
+embed_size: 64
+# The size of the encoder's LSTM hidden states
+hidden_size: 64
+# The dropout rate
+dropout_rate: 0.2
