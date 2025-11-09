@@ -344,7 +344,7 @@ def parse_args():
     parser.add_argument(
         "--wandb-project",
         type=str,
-        default="nmt-project",
+        default="nmt-project-part2",
         help="Weights and Biases project name.",
     )
 
