@@ -5,6 +5,6 @@ vocab_size: 15003
 
 n_layer: 12
 n_head: 12
-n_embed: 256
+n_embed: 252
 
 dropout: 0.1
