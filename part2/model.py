@@ -150,7 +150,8 @@ class CausalSelfAttention(nn.Module):
         y = y.view(B, T, C)
 
         # Step 6: output projection + dropout
-        attention = self.resid_drop(masked_scores)
+        y = self.proj(y)
+        attention = self.resid_drop(y)
         ### End of your code ###
         return GPTAttentionOutput(output=y, attentions=attention)
 
