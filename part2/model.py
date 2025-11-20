@@ -138,22 +138,22 @@ class CausalSelfAttention(nn.Module):
         masked_scores = scores.clone()
         masked_scores = masked_scores.masked_fill_(self.mask[:, :, :T, :T] == 0, float('-inf'))
 
-        masked_scores = F.softmax(masked_scores, dim=-1)
-        masked_scores = self.attn_drop(masked_scores)
+        attention = F.softmax(masked_scores, dim=-1)
+        attention_droppped = self.attn_drop(masked_scores)
 
         # Step 4: Compute the attention output
         # (B, nh, T, T) x (B, nh, T, hs) -> (B, nh, T, hs)
-        y = masked_scores @ v
+        y = attention_droppped @ v
 
         # Step 5: re-assemble all head outputs side by side
         # (B, T, nh, hs) -> (B, T, C)
-        y = y.view(B, T, C)
+        y = y.transpose(1, 2).contiguous().view(B, T, C)
 
         # Step 6: output projection + dropout
         y = self.proj(y)
-        attention = self.resid_drop(y)
+        y = self.resid_drop(y)
         ### End of your code ###
-        return GPTAttentionOutput(output=y, attentions=attention)
+        return GPTAttentionOutput(output=y, attentions=attention if output_attentions else None)
 
 
 class Block(nn.Module):
