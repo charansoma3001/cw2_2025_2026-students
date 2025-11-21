@@ -139,7 +139,7 @@ class CausalSelfAttention(nn.Module):
         masked_scores = masked_scores.masked_fill_(self.mask[:, :, :T, :T] == 0, float('-inf'))
 
         attention = F.softmax(masked_scores, dim=-1)
-        attention_droppped = self.attn_drop(masked_scores)
+        attention_droppped = self.attn_drop(attention)
 
         # Step 4: Compute the attention output
         # (B, nh, T, T) x (B, nh, T, hs) -> (B, nh, T, hs)
