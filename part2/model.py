@@ -337,15 +337,36 @@ class GPT(nn.Module):
 
             if do_sample:
                 ### Your code here (~5-12 lines) ###
-                raise NotImplementedError("Implement sampling in the generate method in model.py (MSc students only)")
+                # raise NotImplementedError("Implement sampling in the generate method in model.py (MSc students only)")
                 # 1. If top_k is not None, crop the logits to only the top k options
+                if top_k is not None and top_k > 0:
+                    top_k = min(top_k, logits.size(-1))  # Safety check
+                    # Keep only top k values, set rest to -inf
+                    indices_to_remove = logits < torch.topk(logits, top_k, dim=-1)[0][..., -1, None]
+                    logits = logits.masked_fill(indices_to_remove, float('-inf'))
 
                 # 2. If top_p is not None, crop the logits to only the top p options
+                if top_p is not None and top_p < 1.0:
+                    sorted_logits, sorted_indices = torch.sort(logits, descending=True, dim=-1)
+                    cumulative_probs = torch.cumsum(F.softmax(sorted_logits, dim=-1), dim=-1)
+                    
+                    # Remove tokens with cumulative probability above threshold
+                    sorted_indices_to_remove = cumulative_probs > top_p
+                    # Shift right to keep first token above threshold
+                    sorted_indices_to_remove[..., 1:] = sorted_indices_to_remove[..., :-1].clone()
+                    sorted_indices_to_remove[..., 0] = False
+                    
+                    # Scatter back to original indexing
+                    indices_to_remove = sorted_indices_to_remove.scatter(1, sorted_indices, sorted_indices_to_remove)
+                    logits = logits.masked_fill(indices_to_remove, float('-inf'))
 
                 # apply softmax to convert logits to (normalized) probabilities
                 # sample from the distribution using the re-normalized probabilities
+                probs = F.softmax(logits, dim=-1)
+                predicted_id = torch.multinomial(probs, num_samples=1)
 
                 # append sampled index to the running sequence and continue
+                input_ids = torch.cat((input_ids, predicted_id), dim=1)
                 ### End of your code ###
             else:
                 # greedily take the argmax
