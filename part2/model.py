@@ -338,6 +338,22 @@ class GPT(nn.Module):
             if do_sample:
                 ### Your code here (~5-12 lines) ###
                 # raise NotImplementedError("Implement sampling in the generate method in model.py (MSc students only)")
+                '''
+                Partly generated code from Claude Sonnet 4.5 (2025) with the prompts used below
+                for top k, the steps are these
+                1. Order the words in descending order of probability;
+                2. select the first K words to create a new distribution;
+                3. sample from those tokens (Tip: use torch.multinomial())
+
+                if top_p is not None:
+
+                1. Order the words in descending order of probability;
+                2. select the smallest number of top tokens such that their cumulative probability is at
+                least p;
+                3. sample from those tokens as before.
+
+                please help me with developing a simple if top k and top p code for sampling
+                '''
                 # 1. If top_k is not None, crop the logits to only the top k options
                 if top_k is not None:
                     # Order the words in descending order of probability and select the first K words to create a new distribution
