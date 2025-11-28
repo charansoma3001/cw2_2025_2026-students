@@ -107,7 +107,7 @@ def train(args: argparse.Namespace) -> None:
 
     vocab = Vocab.load(args.vocab_file)
 
-    device = torch.device(f"cuda:{args.cuda_device}" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
+    device = torch.device(f"cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
     print(f"use device: {device}")
 
     model_config = GPTConfig.from_yaml(args.model_config)
@@ -270,9 +270,6 @@ def train(args: argparse.Namespace) -> None:
 
 def parse_args():
     parser = argparse.ArgumentParser()
-
-    parser.add_argument('--cuda-device', type=int, default=0,
-                    help='CUDA device ID to use (default: 0)')
 
     parser.add_argument(
         "--model-config",

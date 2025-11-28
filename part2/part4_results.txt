@@ -1,0 +1,636 @@
+No sampling:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=3, top-p=0.3, temp=0.3:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=3, top-p=0.3, temp=0.5:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=3, top-p=0.3, temp=0.7:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=3, top-p=0.3, temp=0.9:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=3, top-p=0.3, temp=1.0:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=3, top-p=0.5, temp=0.3:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=3, top-p=0.5, temp=0.5:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=3, top-p=0.5, temp=0.7:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=3, top-p=0.5, temp=0.9:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=3, top-p=0.5, temp=1.0:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=3, top-p=0.7, temp=0.3:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=3, top-p=0.7, temp=0.5:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=3, top-p=0.7, temp=0.7:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=3, top-p=0.7, temp=0.9:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=3, top-p=0.7, temp=1.0:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=3, top-p=0.8, temp=0.3:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=3, top-p=0.8, temp=0.5:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=3, top-p=0.8, temp=0.7:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=3, top-p=0.8, temp=0.9:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=3, top-p=0.8, temp=1.0:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=3, top-p=0.9, temp=0.3:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=3, top-p=0.9, temp=0.5:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=3, top-p=0.9, temp=0.7:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=3, top-p=0.9, temp=0.9:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=3, top-p=0.9, temp=1.0:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=3, top-p=1.0, temp=0.3:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=3, top-p=1.0, temp=0.5:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=3, top-p=1.0, temp=0.7:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=3, top-p=1.0, temp=0.9:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=3, top-p=1.0, temp=1.0:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=7, top-p=0.3, temp=0.3:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=7, top-p=0.3, temp=0.5:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=7, top-p=0.3, temp=0.7:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=7, top-p=0.3, temp=0.9:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=7, top-p=0.3, temp=1.0:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=7, top-p=0.5, temp=0.3:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=7, top-p=0.5, temp=0.5:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=7, top-p=0.5, temp=0.7:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=7, top-p=0.5, temp=0.9:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=7, top-p=0.5, temp=1.0:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=7, top-p=0.7, temp=0.3:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=7, top-p=0.7, temp=0.5:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=7, top-p=0.7, temp=0.7:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=7, top-p=0.7, temp=0.9:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=7, top-p=0.7, temp=1.0:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=7, top-p=0.8, temp=0.3:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=7, top-p=0.8, temp=0.5:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=7, top-p=0.8, temp=0.7:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=7, top-p=0.8, temp=0.9:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=7, top-p=0.8, temp=1.0:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=7, top-p=0.9, temp=0.3:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=7, top-p=0.9, temp=0.5:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=7, top-p=0.9, temp=0.7:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=7, top-p=0.9, temp=0.9:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=7, top-p=0.9, temp=1.0:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=7, top-p=1.0, temp=0.3:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=7, top-p=1.0, temp=0.5:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=7, top-p=1.0, temp=0.7:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=7, top-p=1.0, temp=0.9:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=7, top-p=1.0, temp=1.0:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=10, top-p=0.3, temp=0.3:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=10, top-p=0.3, temp=0.5:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=10, top-p=0.3, temp=0.7:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=10, top-p=0.3, temp=0.9:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=10, top-p=0.3, temp=1.0:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=10, top-p=0.5, temp=0.3:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=10, top-p=0.5, temp=0.5:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=10, top-p=0.5, temp=0.7:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=10, top-p=0.5, temp=0.9:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=10, top-p=0.5, temp=1.0:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=10, top-p=0.7, temp=0.3:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=10, top-p=0.7, temp=0.5:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=10, top-p=0.7, temp=0.7:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=10, top-p=0.7, temp=0.9:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=10, top-p=0.7, temp=1.0:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=10, top-p=0.8, temp=0.3:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est vêtus de rouge et noir.</s>
+
+
+top-k=10, top-p=0.8, temp=0.5:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=10, top-p=0.8, temp=0.7:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=10, top-p=0.8, temp=0.9:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=10, top-p=0.8, temp=1.0:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=10, top-p=0.9, temp=0.3:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=10, top-p=0.9, temp=0.5:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=10, top-p=0.9, temp=0.7:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=10, top-p=0.9, temp=0.9:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=10, top-p=0.9, temp=1.0:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=10, top-p=1.0, temp=0.3:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=10, top-p=1.0, temp=0.5:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=10, top-p=1.0, temp=0.7:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=10, top-p=1.0, temp=0.9:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+
+
+top-k=10, top-p=1.0, temp=1.0:
+load vocab from vocab/vocab.json
+Load model from ../part4/nmt.model
+Number of parameters: 8455296 (8.46M)
+Prediction: Deux garçons sont assis sur un canapé qui est en rouge et noir.</s>
+

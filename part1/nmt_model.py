@@ -256,11 +256,7 @@ class NMT(nn.Module):
         # 1. Apply decoder to Ybar_t and dec_state
         dec_hidden, dec_cell = self.decoder(Ybar_t, dec_state)
         dec_state = (dec_hidden, dec_cell)
-
-
         ### Your code here (~8-15 lines) ###
-        # raise NotImplementedError("Implement the step function in nmt_model.py")
-
         # Dot-product attention
         # 2. Compute attention scores e_t
         # Need to compute batched matrix multiplication between dec_hidden and enc_hiddens_proj
